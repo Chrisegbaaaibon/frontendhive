@@ -1,0 +1,264 @@
+* {
+				box-sizing: border-box;
+				margin: 0;
+				padding: 0;
+}
+body {
+				font-family: 'poppins', sans-serif;
+				background-color: #101010;
+}
+
+.navbar-brand {
+				top:0;
+				left:0;
+				margin: auto;
+				padding:25px 50px;
+}
+#logo {
+				font-size: 15px;
+		   font-weight: bold;
+				color:rgba(247, 212, 11, 0.911);
+}
+.container {
+				background:transparent;
+				box-sizing: border-box;
+				margin: 20px;
+				color:#fff;
+				max-width:400px;
+				padding:10px;
+}
+.box > h2 {
+				font-size:25px;
+				color:rgb(250, 221, 59);
+				text-align: center;
+}
+.box > p {
+				text-align: center;
+				font-size:15px;
+				font-weight:light;
+				color:#fff;
+				margin:14px;
+}
+.box > img {
+	display: table;
+				margin:0 auto;
+				width: 85%;
+				height:auto;
+}
+hr {
+				margin-bottom: 10px;
+				margin-top: 10px;
+				border: none;
+}
+h5 {
+				text-align: center;
+		   color: white;
+		   margin:20px;
+		   font-size:1.3em;
+}
+.msg{
+				color:red;
+				text-align: center;
+}
+form {
+				background: transparent;
+				margin:auto;
+				justify-content:center;
+				align-items: center;
+				display: grid;
+				padding:10px;	
+}
+input {
+				outline:none;
+				height:50px;
+				width:250px;
+				background:#494949;
+				border: none;
+				border-radius: 10px;
+				padding: 7px 4px;
+				margin: auto;
+				display: flex;
+				text-align: center;
+				align-items: center;
+				justify-content: center;
+				color: white;
+}
+.loader {
+	border: 3px solid white;
+	border-top: 3px solid rgba(247, 212, 11, 0.911) ;
+	/* Blue */
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	animation: spin 1s linear infinite;
+}
+
+#email::placeholder {
+	color: rgb(189, 182, 182);
+}
+#email:hover {
+				transform:scale(1.1);
+				transition:3s;
+}
+.button {
+				outline:none;
+				height:50px;
+				width:250px;
+				background: rgba(247, 212, 11, 0.911);
+				border: 1px solid black;
+				border-radius: 15px;
+				padding: 7px 4px;
+				margin: auto;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+}
+.button:hover {
+				transform: scale(.9);
+				transition:.2s;
+}
+.navbar {
+				background: linear-gradient(#c0b8a0,#000,#000);
+				height:80px;
+				width: 100%;
+				bottom: 0;
+				left:0;
+				padding:10px;
+				box-sizing:border-box;
+				color:#fff;
+				position:fixed;
+				display: flex;
+}
+.social {
+				display:flex;
+				margin-top:70px;
+				padding:15px;
+				font-size:30px;
+				word-spacing:10px;
+				margin-bottom:0;
+				background-color: transparent;
+				justify-content:center;
+				align-items: center;
+				width:100%;
+}
+.social-icons {
+				background-color:#272727;
+				padding:4px 12px;
+				text-align: center;
+				font-size:30px;
+				color:#ff9315;
+				border-radius:7px;}
+								
+.social-icons:hover {
+				transition:0.3s;
+				transform:scale(1.2);
+				color:white;				    
+				background-color:#272727;
+}
+
+@media only screen and (min-width:400px){
+#logo {
+				font-size: 16px;
+				color: rgba(247, 212, 11, 0.911);
+				font-weight: bold;
+}
+.container {
+				background:transparent;
+				border-radius:30px;
+				color:white;
+				width:100%;
+				height:auto;
+				margin: auto;
+				align-items: center;
+				justify-content:space-between;
+}
+.box {
+				width:100%;
+				height: auto;
+				border-radius:30px;
+				position:relative;
+}
+.box > h2 {
+				font-size:28px;
+				text-align:center;
+}
+.box > p {
+				text-align:center;
+				font-size: 18px;
+}
+.box > img {
+			  width: 90%; 
+			  height:auto;
+			  border-radius: 20%;			  
+}
+}
+@keyframes spin {
+	0% {
+		 transform: rotate(0deg);
+	}
+	100% {
+		 transform: rotate(360deg);
+	}
+}
+.hivend_modalOverlay {
+	background:  #272727;
+	background-blend-mode: darken;
+	position: absolute;
+	top: 0;
+	height: 155vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hivendHome__modalBox {
+	width: 530px;
+	height: 60%;
+	background:#272727 ;
+	border-radius: 8px;
+	color: #4a5049;
+	padding: 18px 0;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.hivendHome__modalMemojiContainer {
+	background: rgba(247, 212, 11, 0.911);
+	mix-blend-mode: difference;
+	opacity: 0.7;
+	height: 100px;
+	width: 100px;
+	border-radius: 164%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hivendHome__modalBox h1 {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 48px;
+}
+
+.hivendHome__modalBox p {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	text-align: center;
+	color: #9E9E9E;
+	width: 60%;
+}
+
+.hivendHome__modalCloseButton {
+	border: 0;
+	padding: 0;
+	cursor: pointer;
+	height: 55px;
+	width: 185px;
+	font-family: 'Poppins';
+	background: rgba(247, 212, 11, 0.911);
+	border-radius: 8px;
+	color: #fafafa;
+}
