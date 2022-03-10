@@ -20,13 +20,16 @@ function myFunction() {
 				success: (data)=>{
 					if(data.status === '401'){
 						btn.disabled = false;
-						email.innerHTML= 'Email already Exists!';
+						inputField.value = ''
+						msg.innerHTML= 'Email already Exists!';
 						setTimeout(()=>{
-							
+							btn.removeChild(loader)
+							btn.textContent = 'Request Access'
 						}, 1500)
 					}else{
 						if(data.status === '200'){
-							overlay.style.display = 'flex';
+							overlay.style.display = 'flex'
+							btn.disabled = false
 							back.addEventListener('click', (e)=>{
 								overlay.style.display = 'none';
 								btn.textContent = 'Request Access'
