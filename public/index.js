@@ -22,7 +22,7 @@ function myFunction() {
 						btn.disabled = false;
 						inputField.value = ''
 						setTimeout(()=>{
-							msg.innerHTML= 'Email already Exists!';
+							msg.textContent = 'Email already Exists!';
 							btn.removeChild(loader)
 							btn.textContent = 'Request Access'
 						}, 1500)
