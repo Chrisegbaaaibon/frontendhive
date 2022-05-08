@@ -21,8 +21,8 @@ function myFunction() {
 					if(data.status === '401'){
 						btn.disabled = false;
 						inputField.value = ''
+						msg.textContent = 'Email already Exists!';
 						setTimeout(()=>{
-							msg.innerHTML= 'Email already Exists!';
 							btn.removeChild(loader)
 							btn.textContent = 'Request Access'
 						}, 1500)
