@@ -106,6 +106,15 @@ let btn5=document.querySelector("#btn5");
 let btn6=document.querySelector("#btn6");
 let btn7=document.querySelector("#btn7");
 let btn8=document.querySelector("#btn8");
+
+let qst1=document.querySelector("#qst1");
+let qst2=document.querySelector("#qst2");
+let qst3=document.querySelector("#qst3");
+let qst4=document.querySelector("#qst4");
+let qst5=document.querySelector("#qst5");
+let qst6=document.querySelector("#qst6");
+let qst7=document.querySelector("#qst7");
+let qst8=document.querySelector("#qst8");
 //FAQ answers
 let ans1=document.querySelector("#ans1");
 let ans2=document.querySelector("#ans2");
@@ -118,7 +127,7 @@ let ans8=document.querySelector("#ans8");
 
 
 // faq functionalities
-btn1.addEventListener('click',()=>{
+qst1.addEventListener('click',()=>{
 	ans1.style.display=="block"
 	if(ans1.style.display=="none") {
 		ans1.style.display="block"
@@ -129,7 +138,7 @@ btn1.addEventListener('click',()=>{
 }
 });
 
-btn2.addEventListener('click',()=>{
+qst2.addEventListener('click',()=>{
 		ans2.style.display=="block"
 		if(ans2.style.display=="none") {
 			ans2.style.display="block"
@@ -140,7 +149,7 @@ btn2.addEventListener('click',()=>{
 	}
 });
 
-btn3.onclick=()=>{
+qst3.onclick=()=>{
 	if(ans3.style.display=="none") {
 			ans3.style.display="block"
 		  btn3.innerText="-"		
@@ -151,7 +160,7 @@ btn3.onclick=()=>{
 	}
 };
 
-btn4.addEventListener('click',()=>{
+qst4.addEventListener('click',()=>{
 		if(ans4.style.display=="none") {
 			ans4.style.display="block"
 		  btn4.innerText="-"		
@@ -161,7 +170,7 @@ btn4.addEventListener('click',()=>{
 	}
 });
 
-btn5.addEventListener('click',()=>{
+qst5.addEventListener('click',()=>{
 		if(ans5.style.display=="none") {
 			ans5.style.display="block"
 		  btn5.innerText="-"		
@@ -171,7 +180,7 @@ btn5.addEventListener('click',()=>{
 	}
 });
 
-btn6.addEventListener('click',()=>{
+qst6.addEventListener('click',()=>{
 		if(ans6.style.display=="none") {
 			ans6.style.display="block"
 		  btn6.innerText="-"		
@@ -181,7 +190,7 @@ btn6.addEventListener('click',()=>{
 	}
 });
 
-btn7.addEventListener('click',()=>{
+qst7.addEventListener('click',()=>{
 		if(ans7.style.display=="none") {
 			ans7.style.display="block"
 		  btn7.innerText="-"		
@@ -192,7 +201,7 @@ btn7.addEventListener('click',()=>{
 });
 
 
-btn8.addEventListener('click',()=>{
+qst8.addEventListener('click',()=>{
 		if(ans8.style.display=="none") {
 			ans8.style.display="block"
 		  btn8.innerText="-"		

@@ -427,13 +427,14 @@ input:hover {
 
 .questions{
     display: flex;
-    border-radius: 3%;
+    border-radius: 50px;
     justify-content: space-between;
     background: rgba(0, 0, 0, .1);
     width: 65%;
     border-radius: 3%;
     margin:0 auto;
     padding: 30px;
+    box-shadow: rgba(255, 255, 255, 0.363) 0px 2px 0px 1px;
 }
 
 .qst{
