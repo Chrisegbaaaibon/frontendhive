@@ -18,6 +18,7 @@ let home = document.querySelector('.button');
 // let intro = document.querySelector('.limit');
 let profile = document.querySelector('.profile');
 let image = document.querySelector('.image');
+ScrollReveal().reveal('.body')
 
 //Arrays of the circles
 const circle=[
