@@ -2,10 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
-    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, 
-     sans-serif;
      cursor: pointer;
+}
+
+body{
+    font-family: 'poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
 }
 
 /*-- intro --*/
@@ -71,7 +73,7 @@
 }
 
 .image {
-    width: 43%;
+    width: 49%;
     height: auto;
     margin: 0 auto;
     display: flex;
@@ -164,7 +166,7 @@ input:hover {
 	align-items: center;
 }
 .hivendHome__modalBox {
-	width: 400px;
+	width: 200px;
 	height: 60%;
 	border-radius: 8px;
 	color: #4a5049;
