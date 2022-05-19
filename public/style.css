@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-     cursor: pointer;
 }
 
 body{
@@ -151,6 +150,7 @@ input:hover {
     height: 30px;
     width: 230px;
     font-size: 16px;
+    cursor: pointer;
 }
 .toflex {
 	background:  #272727;
@@ -378,6 +378,7 @@ input:hover {
     display: flex;
     justify-content: center;
     margin-top: -30px;
+    cursor: pointer;
 }
 
 .comments{
@@ -435,17 +436,20 @@ input:hover {
     margin:0 auto;
     padding: 30px;
     box-shadow: rgba(255, 255, 255, 0.363) 0px 2px 0px 1px;
+    cursor: pointer;
 }
 
 .qst{
     font-size: 18px;
     color: white;
+    cursor: pointer;
 }
 .ans{
     display: none;
     font-size: 14px;
     padding: 2% 1%;
     color: #ffbf00;
+    cursor: pointer;
 }
 
 .btns{
@@ -456,6 +460,7 @@ input:hover {
     width: 23px;
     height: 23px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 @media only screen and (max-width:960px) {

@@ -1,4 +1,3 @@
-console.log("Hello");
 //Circles
 let dot1=document.querySelector("#dot1");
 let dot2=document.querySelector("#dot2");
@@ -18,7 +17,105 @@ let home = document.querySelector('.button');
 // let intro = document.querySelector('.limit');
 let profile = document.querySelector('.profile');
 let image = document.querySelector('.image');
-ScrollReveal().reveal('.body')
+
+
+// var story = {
+//     distance: '150%',
+//     origin: 'side',
+//     opacity: null,
+// 	delay: 600,
+// 	duration: 1500,
+// 	interval: 2000,
+// 	easing: 'ease-in-out',
+// };
+// var spirit = {
+// 	ease: 'easeInOut',
+//     distance: '150%',
+//     origin: 'reverse-side',
+//     opacity: null,
+// 	delay: 800,
+// 	duration: 1500,
+// 	interval: 1500,
+// 	easing: 'ease-in-out',
+// };
+
+// var unique = {
+//     distance: '150%',
+//     origin: 'side-left',
+//     opacity: null,
+// 	delay: 800,
+// 	duration: 800,
+// 	opacity: 5,
+// 	interval: 1000,
+// 	easing: 'ease-in-out',
+// };
+
+// var point1 = {
+//     distance: '150%',
+//     origin: 'side',
+//     opacity: null,
+// 	delay: 800,
+// 	duration: 1000,
+// 	interval: 1000,
+// 	easing: 'ease-in-out',
+// };
+
+// var point2 = {
+//     distance: '150%',
+//     origin: 'side',
+//     opacity: null,
+// 	delay: 1000,
+// 	duration: 1000,
+// 	interval: 1000,
+// 	easing: 'ease-in-out',
+// };
+
+// var point3 = {
+//     distance: '150%',
+//     origin: 'side',
+//     opacity: null,
+// 	delay: 1200,
+// 	duration: 1000,
+// 	interval: 1000,
+// 	easing: 'ease-in-out',
+// };
+
+// var commentv = {
+//     distance: '150%',
+//     origin: 'side',
+//     opacity: null,
+// 	delay: 0,
+// 	duration: 1000,
+// 	interval: 1000,
+// 	easing: 'ease-in-out',
+// };
+
+// var dots = {
+//     distance: '150%',
+//     origin: 'side',
+//     opacity: null,
+// 	delay: 0,
+// 	duration: 1000,
+// 	interval: 0,
+// 	easing: 'ease-in-out',
+// };
+
+
+
+
+
+
+
+// ScrollReveal().reveal('.story', story);
+// ScrollReveal().reveal('.what', spirit);
+// ScrollReveal().reveal('.unique', unique);
+// ScrollReveal().reveal('.point1', point1);
+// ScrollReveal().reveal('.point2', point2);
+// ScrollReveal().reveal('.point3', point3);
+// ScrollReveal().reveal('.comment', commentv);
+// ScrollReveal().reveal('.dots', dots);
+// ScrollReveal().reveal('.comment', commentv);
+
 
 //Arrays of the circles
 const circle=[
@@ -92,7 +189,6 @@ setInterval(()=>{
 				
 },4200)
 let m=comments.length;
-console.log(m);
 
 
 
